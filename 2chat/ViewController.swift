@@ -25,6 +25,7 @@ class ViewController: UIViewController, StompClientLibDelegate, UITableViewDataS
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(ViewController.description())
         
         tbvChat.reloadData()
         initTableView()
