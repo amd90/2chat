@@ -27,6 +27,7 @@ class ViewController: UIViewController, StompClientLibDelegate, UITableViewDataS
         super.viewDidLoad()
         print(ViewController.description())
         
+        
         tbvChat.reloadData()
         initTableView()
         let url = NSURL(string: socket_url)!
